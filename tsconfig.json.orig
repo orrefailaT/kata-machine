@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "allowJs": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true,
+        "target": "esnext",
+        "module": "commonjs",
+        "baseUrl": "src",
+        "paths": {
+            "@code/*": [
+<<<<<<< Updated upstream
+                "day4/*"
+=======
+                "day1/*"
+>>>>>>> Stashed changes
+            ]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
